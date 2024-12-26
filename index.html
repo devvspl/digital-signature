@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Signature</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Digital Signature</h1>
+    <canvas id="signatureCanvas"></canvas>
+    <div class="buttons">
+      <button id="clearBtn">Clear</button>
+      <button id="undoBtn">Undo</button>
+      <button id="redoBtn">Redo</button>
+      <button id="saveBtn">Save</button>
+      <a id="downloadLink" download="signature.png" style="display:none;"></a>
+    </div>
+    <img id="savedImage" alt="Saved Signature" />
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
